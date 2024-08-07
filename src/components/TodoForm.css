@@ -1,0 +1,36 @@
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.todo-input,
+.todo-textarea {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.todo-input:focus,
+.todo-textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+.todo-submit-button {
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.todo-submit-button:hover {
+    background-color: #357ab8;
+}
